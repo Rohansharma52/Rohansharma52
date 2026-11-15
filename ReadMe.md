@@ -37,6 +37,7 @@ I'm a **B.Tech CSE (AI & ML)** student at KIET (CGPA 8.4) who likes building **A
 ## 💼 Experience
 
 **Autonomous Systems Intern — Teific Technology Pvt. Ltd.** · *Jun – Sep 2026 · paid, 4 months* · [certificate ↗](https://rohansharma52.github.io/Teific_Internship_Certificate.pdf)
+
 - Trained a **YOLO** object detector on **~10,000 aerial drone images** to spot **potholes, traffic congestion and waterlogged roads** — **~92% detection accuracy**
 - Worked on sensor integration, embedded and control systems for the company's drone platform
 
@@ -99,7 +100,7 @@ ML crop recommendation from soil and environmental data — full pipeline from p
 ![Ollama](https://img.shields.io/badge/Ollama-0b0b10?style=flat-square&logo=ollama&logoColor=ff8a1f)
 
 **Cloud & backend**  
-![AWS](https://img.shields.io/badge/AWS-0b0b10?style=flat-square&logo=amazonwebservices&logoColor=ff8a1f)
+![AWS](https://img.shields.io/badge/☁%20AWS-0b0b10?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-0b0b10?style=flat-square&logo=docker&logoColor=ff8a1f)
 ![Linux](https://img.shields.io/badge/Linux-0b0b10?style=flat-square&logo=linux&logoColor=ff8a1f)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0b0b10?style=flat-square&logo=fastapi&logoColor=ff8a1f)
