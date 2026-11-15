@@ -10,6 +10,8 @@
   <a href="https://rohansharma52.github.io/Rohan_Sharma_Resume_web.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-ff8a1f?style=for-the-badge&labelColor=0b0b10&logo=readthedocs&logoColor=ff8a1f" alt="Résumé"></a>
 </p>
 
+<p align="center"><img src="assets/highlights.svg" alt="Highlights: ~92% YOLO detection on ~10,000 drone images · RouteLLM AUC 0.55 → 0.33 on Hinglish · AWS Certified ×2 · CGPA 8.4" width="100%"></p>
+
 ## 👋 About me
 
 I'm a **B.Tech CSE (AI & ML)** student at KIET (CGPA 8.4) who likes building **AI that works for India**.
@@ -33,6 +35,28 @@ I'm a **B.Tech CSE (AI & ML)** student at KIET (CGPA 8.4) who likes building **A
 
 **Stack:** Python · RouteLLM · BERT · Ollama · Groq · Kaggle T4 GPUs · LLM-as-a-judge · tiktoken  
 📊 Full findings → [rohansharma52.github.io/#work](https://rohansharma52.github.io/#work)
+
+<details>
+<summary><b>🏗️ How Bharat-Router works</b> (click to expand)</summary>
+<br>
+
+```mermaid
+flowchart LR
+    Q([User query<br/>Hinglish / English]) --> R{Language-aware<br/>router}
+    R -->|seen before| C[(Semantic cache)]
+    R -->|easy| S[Small model · 3B]
+    R -->|code-mixed| T[Translate → small model]
+    R -->|hard| L[Large model]
+    S & T & L --> A[Answer]
+    A --> J[LLM-as-a-judge]
+    J -. oracle labels .-> R
+    classDef hot fill:#ff8a1f,stroke:#ff8a1f,color:#000;
+    class R hot;
+```
+
+**How I evaluate it:** a 200-prompt parallel benchmark (the same question in English and Hinglish, 7 domains) → answers from small and large open models on Kaggle GPUs → an LLM judge scores each answer → those scores become the labels the router learns from.
+
+</details>
 
 ## 💼 Experience
 
